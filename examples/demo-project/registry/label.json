@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "label",
+  "type": "registry:ui",
+  "title": "Label",
+  "description": "A label component built with Radix UI that provides accessible labeling for form controls. Automatically handles disabled states and cursor behavior.",
+  "files": [
+    {
+      "path": "registry/default/label/label.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "registryDependencies": [
+    "input",
+    "label"
+  ]
+}

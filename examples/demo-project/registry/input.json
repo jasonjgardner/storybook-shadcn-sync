@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "input",
+  "type": "registry:ui",
+  "title": "Input",
+  "description": "A flexible input component with consistent styling and accessibility features. Built with React forwardRef for proper form integration.",
+  "files": [
+    {
+      "path": "registry/default/input/input.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "registryDependencies": [
+    "input"
+  ]
+}

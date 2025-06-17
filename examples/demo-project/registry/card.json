@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card",
+  "type": "registry:ui",
+  "title": "Card",
+  "description": "A flexible card component with header, content, and footer sections. Perfect for displaying grouped information with consistent styling.",
+  "files": [
+    {
+      "path": "registry/default/card/card.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "registryDependencies": [
+    "button",
+    "card",
+    "input",
+    "label"
+  ]
+}

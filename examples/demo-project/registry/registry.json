@@ -1,0 +1,75 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "demo-ui-components",
+  "homepage": "https://github.com/example/demo-ui-components",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "label",
+      "type": "registry:ui",
+      "title": "Label",
+      "description": "A label component built with Radix UI that provides accessible labeling for form controls. Automatically handles disabled states and cursor behavior.",
+      "files": [
+        {
+          "path": "registry/default/label/label.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "registryDependencies": [
+        "input",
+        "label"
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "A flexible input component with consistent styling and accessibility features. Built with React forwardRef for proper form integration.",
+      "files": [
+        {
+          "path": "registry/default/input/input.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "registryDependencies": [
+        "input"
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "A flexible card component with header, content, and footer sections. Perfect for displaying grouped information with consistent styling.",
+      "files": [
+        {
+          "path": "registry/default/card/card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "registryDependencies": [
+        "button",
+        "card",
+        "input",
+        "label"
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "A versatile button component built with Radix UI and class-variance-authority. Supports multiple variants, sizes, and can be used as a child component.",
+      "files": [
+        {
+          "path": "registry/default/button/button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "registryDependencies": [
+        "button"
+      ]
+    }
+  ]
+}

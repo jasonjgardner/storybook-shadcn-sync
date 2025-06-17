@@ -1,0 +1,50 @@
+{
+  "input": {
+    "storybookPath": "./src/stories",
+    "storiesPattern": "**/*.stories.@(js|jsx|ts|tsx)",
+    "componentsPath": "./src/components",
+    "tsconfigPath": "./tsconfig.json"
+  },
+  "output": {
+    "registryPath": "./registry",
+    "registryName": "demo-ui-components",
+    "homepage": "https://github.com/example/demo-ui-components"
+  },
+  "mapping": {
+    "componentTypeRules": [
+      {
+        "pattern": "**/ui/**",
+        "type": "registry:ui"
+      },
+      {
+        "pattern": "**/blocks/**",
+        "type": "registry:block"
+      },
+      {
+        "pattern": "**/hooks/**",
+        "type": "registry:hook"
+      },
+      {
+        "pattern": "**/lib/**",
+        "type": "registry:lib"
+      }
+    ],
+    "dependencyMapping": {
+      "@/lib/utils": "utils",
+      "@/components/ui": ""
+    },
+    "excludePatterns": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/*.test.*",
+      "**/*.spec.*",
+      "**/coverage/**"
+    ]
+  },
+  "generation": {
+    "generateIndividualItems": true,
+    "includeStoryExamples": true,
+    "validateOutput": true
+  }
+}
+

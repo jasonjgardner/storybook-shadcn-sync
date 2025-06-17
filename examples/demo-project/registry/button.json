@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "button",
+  "type": "registry:ui",
+  "title": "Button",
+  "description": "A versatile button component built with Radix UI and class-variance-authority. Supports multiple variants, sizes, and can be used as a child component.",
+  "files": [
+    {
+      "path": "registry/default/button/button.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "registryDependencies": [
+    "button"
+  ]
+}
