@@ -404,7 +404,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
-git clone https://github.com/your-org/storybook-shadcn-sync.git
+git clone https://github.com/jasonjgardner/storybook-shadcn-sync.git
 cd storybook-shadcn-sync
 npm install
 npm run build
